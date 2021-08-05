@@ -33,5 +33,5 @@ Once the program has been started the user will get 2 options wheteher to contin
 1. Enter number of rows and columns in space separated format. User can create board of maximum 100 cells.
 2. Enter each row of grid in space separated format.
 3. After each generation user will get 3 options - Continue, Exit or Search
-4. In search option user has to enter cell name as row_column format. Example '2_1' will represent cell with row number 2 and column number 1. Any invalid name will give error.(Row will be in the range 0 to n-1 and columns will be in the range 0 to m-1)
+4. In search option user has to enter cell name as row_column format. Example '2_1' will represent cell with row number 2 and column number 1. Any invalid name will give error.(Rows will be in the range 0 to n-1 and columns will be in the range 0 to m-1)
 
