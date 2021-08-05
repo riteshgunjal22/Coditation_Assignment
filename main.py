@@ -35,11 +35,6 @@ if __name__ == '__main__':
         print("Please enter valid input")
         raise ValueError("Invalid Input")
 
-    try:
-        gen = int(input("\n Enter number of generations want to calculate(default 1): "))
-    except:
-        gen = 1
-
     print("\n\n\nInput Board: ")
     cell = GameOfCells(dead, live)
     cell.printBoard(arr)
